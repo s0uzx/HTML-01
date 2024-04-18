@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Righteous&display=swap');
+
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+    font-family: "Bungee", sans-serif;
+    color: rgb(235, 248, 54);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 234, 255);
+    
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.345);
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Principal  {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+main {
+    background-color: rgba(127, 255, 212, 0.726);
+    border-radius: 6px;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+aside {
+    background-color: rgba(0, 206, 209, 0.726);
+    border-radius: 6px;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+}
